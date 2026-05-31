@@ -3,6 +3,9 @@ import { AuthProvider, useAuth } from './context/AuthContext'
 import AppLayout from './components/layout/AppLayout'
 import Dashboard from './pages/Dashboard'
 import Login from './pages/Login'
+import Expenses from './pages/Expenses'
+import Budgets from './pages/Budgets'
+import Goals from './pages/Goals'
 
 function ProtectedRoute({ children }) {
   const { isAuthenticated } = useAuth()
@@ -27,7 +30,9 @@ export default function App() {
           >
             <Route index element={<Navigate to="/dashboard" replace />} />
             <Route path="dashboard" element={<Dashboard />} />
-            {/* other nested routes (expenses, budgets, goals) can be added here */}
+            <Route path="expenses" element={<Expenses />} />
+            <Route path="budgets" element={<Budgets />} />
+            <Route path="goals" element={<Goals />} />
           </Route>
 
           <Route path="*" element={<Navigate to="/" replace />} />
