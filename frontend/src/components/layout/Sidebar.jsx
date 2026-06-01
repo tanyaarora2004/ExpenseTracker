@@ -34,8 +34,7 @@ export default function Sidebar() {
             <PiggyBank className="w-5 h-5 text-ink" />
           </div>
           <div>
-            <span className="font-display font-bold text-xl text-white tracking-tight">PxT</span>
-            <p className="text-white/30 text-xs font-body -mt-0.5">Expense Tracker</p>
+            <span className="font-display font-bold text-xl text-white tracking-tight">Expense Tracker</span>
           </div>
         </div>
       </div>

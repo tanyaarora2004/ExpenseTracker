@@ -50,8 +50,8 @@ export default function Login() {
             <PiggyBank className="w-6 h-6 text-ink" />
           </div>
           <div>
-            <span className="font-display font-bold text-2xl text-white tracking-tight">PxT</span>
-            <p className="text-white/30 text-xs font-body -mt-0.5">Personal Expense Tracker</p>
+            <span className="font-display font-bold text-2xl text-white tracking-tight">Expense Tracker</span>
+            <p className="text-white/30 text-xs font-body -mt-0.5">Track your spending</p>
           </div>
         </div>
 
